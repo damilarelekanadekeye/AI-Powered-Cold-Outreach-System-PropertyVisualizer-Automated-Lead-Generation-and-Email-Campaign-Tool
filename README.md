@@ -10,7 +10,8 @@ This solution demonstrates expertise in scripting, data handling, and AI-driven 
 
 ### System Overview
 
-![System Overview](https://damilareadekeye.com/images/Software/1/overview-thumb.webp)![Detailed Overview](https://damilareadekeye.com/images/Software/1/overview-full.webp)
+![System Overview](./images/overview-thumb.webp)
+![Detailed Overview](./images/overview-full.webp)
 
 ---
 
@@ -64,7 +65,7 @@ The development workflow was structured as follows:
 7.  **Submission (15 mins):** Organized and submitted all files.
 
 #### Workflow Diagram
-![Workflow Diagram](https://damilareadekeye.com/images/Software/1/workflow-diagram.webp)
+![Workflow Diagram](./images/workflow-diagram.webp)
 
 ---
 
@@ -75,15 +76,19 @@ The development workflow was structured as follows:
 *   **Test Email Success:** Successfully sent a test email, validating the functionality of the email automation script.
 *   **Business Value:** The documentation outlines a potential 10-15% improvement in conversion rates and a cost-effective scaling plan.
 
-#### Terminal Results
+#### Terminal Results & Screenshots
 **`scrape_leads.py` Results**
-![Terminal Result 1](https://damilareadekeye.com/images/Software/1/result1.webp)![Terminal Result 2](https://damilareadekeye.com/images/Software/1/result2.webp)![Terminal Result 3](https://damilareadekeye.com/images/Software/1/result3.webp)
+![Terminal Result 1](./images/result1.webp)
+![Terminal Result 2](./images/result2.webp)
+![Terminal Result 3](./images/result3.webp)
 
 **`generate_emails.py` Results**
-![Terminal Result 5](https://damilareadekeye.com/images/Software/1/result5.webp)![Terminal Result 4](https://damilareadekeye.com/images/Software/1/result4.webp)
+![Terminal Result 5](./images/result5.webp)
+![Terminal Result 4](./images/result4.webp)
 
 **`send_emails.py` Results**
-![Terminal Result 6](https://damilareadekeye.com/images/Software/1/result6.webp)![Terminal Result 7](https://damilareadekeye.com/images/Software/1/result7.webp)
+![Terminal Result 6](./images/result6.webp)
+![Terminal Result 7](./images/result7.webp)
 
 ---
 
@@ -157,7 +162,7 @@ from openai import OpenAI
 import os
 
 # Set your OpenAI API key
-openai_api_key = 'sk-proj-z-****************************7vaMdMA'
+openai_api_key = 'YOUR_API_KEY_HERE' # Replace with your key
 if not openai_api_key:
     raise ValueError("Please set your OpenAI API key in the script.")
 
@@ -180,8 +185,8 @@ import os
 # Gmail SMTP configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "adekeyedamilarelekan@gmail.com"
-SENDER_PASSWORD = "r**j **** v**u ****"
+SENDER_EMAIL = "your_email@gmail.com"  # Replace with your Gmail address
+SENDER_PASSWORD = "your_app_password"  # Replace with your Gmail App Password
 
 # ... (rest of the script)
 ```
