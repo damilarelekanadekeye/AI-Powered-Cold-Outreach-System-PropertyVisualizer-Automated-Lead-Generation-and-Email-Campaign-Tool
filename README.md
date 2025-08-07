@@ -1,0 +1,2 @@
+# AI-Powered-Cold-Outreach-System-PropertyVisualizer-Automated-Lead-Generation-and-Email-Campaign-Tool
+This project is a fully automated system that showcases the use of Python, AI, and web technologies to scrape leads from Gelbe Seiten (the German Yellow Pages) in Berlin. It then generates personalized emails in German using the OpenAI API and sets up an email-sending sequence, complete with a test email feature.
